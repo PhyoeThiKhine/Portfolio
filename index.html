@@ -1134,21 +1134,32 @@
         @media only screen and (max-width: 1080px) and (min-width: 600px){
           .projects-section{
               height: auto;
-              padding: 0px 0px;
+              padding: 260px 0px;
           }
           .first-3-projects {
               width: 80%;
               display: block;
           }
+          .first-3-projects .project-card, .second-2-projects .project-card {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+
           .second-2-projects{
-              padding-top: 0px;
               width: 80%;
               display: block;
+              
           }
           .projects-container .first-3-projects .project-card , .projects-container .second-2-projects .project-card{
               width: 760px;
               height: 440px;
               margin: 20px 0px;
+          }
+          .second-2-projects .SE-website .project-card{
+            margin: 100px 0px -500px 0px;
+            
           }
           .projects-container .first-3-projects img,.projects-container .second-2-projects img{
               width: 760px;
@@ -1166,13 +1177,12 @@
           .first-3-projects {
               width: 80%;
               display: block;
-              padding-left: 3%;
+   
           }
           .second-2-projects{
               padding-top: 0px;
               width: 80%;
               display: block;
-              padding-left: 3%;
           }
           .project-card{
               margin-bottom: 20px;
